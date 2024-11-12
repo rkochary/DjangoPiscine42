@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Resume</title>
+    <style>
+        /* Style for table with border-collapse and visible borders */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        /* Special border color for the bottom-right cell */
+        #special-cell {
+            border-color: #424242;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Resume Title -->
+    <h1>John Doe's Resume</h1>
+
+    <!-- Basic Information -->
+    <h2>Personal Information</h2>
+    <p>Name: John Doe</p>
+    <p>Surname: Doe</p>
+
+    <!-- Skills Section -->
+    <h2>Skills</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Graphic Design</li>
+        <li>Project Management</li>
+    </ul>
+
+    <!-- Career Path Section with an ordered list -->
+    <h2>Career Path</h2>
+    <ol>
+        <li>Junior Developer at XYZ Corp</li>
+        <li>Senior Developer at ABC Inc</li>
+        <li>Lead Developer at Tech Solutions</li>
+    </ol>
+
+    <!-- Experience Table -->
+    <h2>Professional Experience</h2>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Position</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>Junior Developer</td>
+            <td>XYZ Corp</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>Senior Developer</td>
+            <td>ABC Inc</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>Lead Developer</td>
+            <td id="special-cell">Tech Solutions</td>
+        </tr>
+    </table>
+
+</body>
+</html>
